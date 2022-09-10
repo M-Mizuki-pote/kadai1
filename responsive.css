@@ -1,52 +1,280 @@
-@media(max-width:2500px){
+@media screen and (max-width:1000px){
+  
+ .logo{
+   margin:20px 30px;
+   width:190px;
+   height:20px
+}
+
+ .header{
+    height:60px;
+    background-color:white;
+    position:fixed;
+    top:0;
+    z-index:20;
+ }
+ 
   .header-right{
     display: none;
   }
   
   .header-menu{
+    margin-top:20px;
+    margin-right:40px;
     cursor:pointer;
-    display: block;
-    position: relative;
-    width:50px;
-    height:50px;
-    z-index: 20;
+    width:30px;
+    height:30px;
   }
   
-  .menu-line{
-    position: absolute;
+  .menu-line-1{
     display: block;
-    width: 100%;
+    width: 30px;
     height: 3px;
     background-color: #333;
-    transform: translate(0,-50%);
+    border-radius: 10px;
+    margin-bottom:7px;
+  }
+  
+  .menu-line-2{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 10px;
+    margin-bottom:7px;
+  }
+  
+  .menu-line-3{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #333;
     border-radius: 10px;
   }
   
+  .main{
+    height:700px;
+    background-position:50% 40%;
+    
+  }
+  
+  .main-text{
+    height: 160px;
+    padding-left:0px;
+  }
+  
+  .main-text h1{
+    font-size:38px;
+    width:600px;
+  }
+  
   .main-wrapper{
+    padding-top:100px;
+    margin-right:auto;
     height:auto;
     max-width: 100%;
     display: flex;
     flex-direction: column;
   }
   
+  .main-image{
+    width:700px;
+    height:160px;
+    padding-left:0px;
+    margin-top:0px;
+    margin-left:40px;
+  }
+  
+  .image-1{
+    width:20%;
+    height:140px;
+    vertical-align:30px;
+  }
+  
+  .image-2{
+    width:30%;
+    height:210px;
+  }
+  
+  .main-button{
+    display:flex;
+    padding-left:35px;
+    margin-top:20px;
+    margin-bottom:25px;
+  }
+  
+  .button-2{
+    width:300px;
+    height:60px;
+    font-size:16px;
+    margin:0px;
+  }
+  
+  .button-3{
+    width:180px;
+    height:60px;
+    font-size:15px;
+    margin-left:20px;
+  }
+  
+  .main-bottom-text{
+    padding-top:30px;
+    padding-left:50px;
+  }
+  
+  .main-bottom-text p{
+    font-size:11px;
+}
+
+  .main-2{
+    height:700px;
+    width:1000px;
+  }
+  
   .main-2-container{
-    display: flex;
-    align-items:center;
-    flex-flow:column;
+    width:800px;
+    display:flex;
+    flex-flow: column;
+    gap:0px;
+    padding-top:30px;
+    margin-left:150px;
+  }
+  
+  .main-2-text{
+    width:85%;
+    margin:10px 0px;
+  }
+  
+  .main-2-text h2{
+    font-size:35px;
+    display:block;
+    margin-bottom:0px;
+  }
+  
+  .main-2-text p{
+    font-size:15px;
+  }
+  
+  .main-2-text a{
+    font-size:18px;
   }
   
   .main-2-video{
-    width:100%;
+    width:85%;
   }
+  
+  .main-2-icon{
+    width:20px;
+    height:20px;
+    vertical-align: text-top;
 }
 
-@media(max-width:670px){
+}
+
+@media screen and (max-width:670px){
+  .header{
+    height:50px;
+    width:100%;
+ }
+ 
+ .logo{
+    margin:18px 20px;
+    width:150px;
+    height:15px
+}
+
+  .header-menu{
+    margin:15px 30px;
+    cursor:pointer;
+    width:20px;
+    height:20px;
+  }
+  
   .main{
-    background-image:none;
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
+    background-position:0px 50px;
+  }
+  
+  .main-wrapper{
+    padding-top:480px;
+    position: initial;
+  }
+  
+  .main-text{
+    max-width:100%;
+    height:120px;
+    margin-left:30px;
+  }
+  
+  .main-text h1{
+    font-size:25px;
+  }
+  
+  .main-image{
+   width:620px;
+   padding-left:0px;
+   margin-top:0px;
+   margin-left:40px;
+  }
+  
+  .image-1{
+  width:170px;
+  height:170px;
+  vertical-align:40px;
+}
+
+  .image-2{
+    width:250px;
+    height:250px;
+}
+  
+  .button-2{
+    width:630px;
+    margin-top:50px;
+    font-size:14px;
   }
   
   .button-3{
     display: none;
   }
   
+  .main-bottom-text{
+    width:630px;
+    padding:0px;
+    margin:0px 20px;
+    font-family: 'Lato',sans-serif;
+  }
+  .main-bottom-text p{
+    font-size:11px;
+  }
+
+  .main-2{
+    width:670px;
+    height:600px;
+    margin-top:380px;
+    display:flex;
+    flex-flow: column;
+  }
+  
+  .main-2-container{
+    width:670px;
+    padding-top:20px;
+    padding-bottom:0px;
+    margin-left:0px;
+  }
+  
+  .main-2-video{
+    width:95%;
+    margin-left:20px;
+  }
+  
+  .main-2-text{
+    width:630px;
+    margin:0px 20px;
+  }
+  
+  .responsive{
+    font-size:28px;
+  }
+
 }
