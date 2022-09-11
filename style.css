@@ -13,7 +13,7 @@ body{
 .header-right{
   display: flex;
   justify-content:space-between;
-  padding:50px 120px 0px;
+  padding:5px 5px 0px;
   z-index: 10;
 }
 
@@ -22,8 +22,8 @@ body{
 }
 
 .header-right a{
-  padding:0px 25px 0px;
-  font-size:33px;
+  padding:0px 0px 0px;
+  font-size:13px;
   text-align: center;
   color:black;
   display: inline-block;
@@ -31,11 +31,11 @@ body{
   text-decoration:none;
 }
 ul{
-  margin-top: 10px;
+  margin-top:20px;
 }
 
 li{
-  padding-left:100px;
+  padding-left:50px;
 }
 
 span:first-child{
@@ -44,7 +44,7 @@ span:first-child{
 }
 
 span:nth-child(2){
-  font-size: 28px;
+  font-size: 5px;
 }
 
 .header-left{
@@ -52,26 +52,26 @@ span:nth-child(2){
 }
 
 .logo{
-  margin:50px 100px;
-  width:500px;
-  height:60px
+  margin:20px 20px;
+  width:200px;
+  height:20px
 }
 
 .button{
-  border-radius: 100px;
-  font-size:35px;
+  border-radius: 50px;
+  font-size:3px;
   background-color: #f79214;
   color:white;
   border:none;
-  margin-left:20px;
+  margin-left:10px;
   cursor: pointer;
 }
 
 .button-1{
-  width:400px;
-  height:110px;
-  font-size:30px;
-  margin-left:70px;
+  width:150px;
+  height:45px;
+  font-size:12px;
+  margin:15px 0px 0px 30px;
 }
 
 button:hover{
@@ -84,95 +84,94 @@ button:hover{
 }
 
 .main{
-  height:1800px;
+  height:680px;
   background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
-  background-size: cover;
+  background-size:150%;
   background-position:50% 0%;
-  width:100%;
   
 }
 
 .main-wrapper{
-  width:3100px;
+  width:100%;
   margin-left:auto;
   margin-right:auto;
   position:absolute;
-  padding-top:200px;
+  padding-top:60px;
 }
 
 .main-text{
-  font-size: 70px;
+  font-size: 25px;
   color:#333;
   text-align:center;
   width:fit-content;
-  padding-left:500px;
+  padding-left:70px;
 }
 
 .main-image{
-  padding-left:500px;
+  padding-left:50px;
 }
 
 .image-1{
-  width:350px;
-  height:350px;
-  vertical-align:80px;
+  width:140px;
+  height:140px;
+  vertical-align:30px;
 }
 
 .image-2{
-  width:550px;
-  height:550px;
+  width:220px;
+  height:220px;
 }
 
 .button-2{
-  width:550px;
+  width:55px;
 }
 
 .main-button{
-  padding-left:500px;
-  padding-top:50px;
+  padding-left:50px;
+  padding-top:5px;
 }
 
 .button-2{
-  width:830px;
-  height:170px;
-  font-size:40px;
+  width:300px;
+  height:55px;
+  font-size:15px;
 }
 
 .button-3{
-  width:450px;
-  height:170px;
+  width:150px;
+  height:55px;
   color:black;
   background-color: white;
   border-color:#e0e0e0;
   border-radius: 100px;
-  font-size:40px;
-  margin-left:30px;
+  font-size:15px;
+  margin-left:3px;
   cursor: pointer;
 }
 
 .main-bottom-text{
-  padding-top:130px;
-  padding-left:500px;
+  padding-top:60px;
+  padding-left:60px;
 }
 
 .main-bottom-text p{
-  font-size:30px;
+  font-size:12px;
   color:#a2a2a4;
 }
 
 .main-2{
-  height:1000px;
+  height:400px;
   background-color: #f79214;
 }
 
 .main-2-container{
-  max-width:3000px;
-  padding:50px 0px;
-  margin-left:430px;
+  max-width:100%;
+  padding:40px 0px;
+  margin-left:20px;
   margin-right:auto;
   display: flex;
   justify-content:center;
-  gap:50px
+  gap:30px
 }
 
 .main-2-video{
@@ -181,28 +180,28 @@ button:hover{
 }
 
 .main-2-text{
-  width:1300px;
+  width:40%;
   color:white;
-  margin-top:40px;
+  margin-top:10px;
 }
 
 .main-2-text h2{
-  font-size:90px;
+  font-size:35px;
   font-family:'Lato',sans-serif;
 }
 
 .main-2-text p{
-  font-size:45px;
+  font-size:15px;
 }
 
 .main-2-text a{
-  font-size:47px;
+  font-size:18px;
   text-decoration: none;
   color:white;
 }
 
 .main-2-icon{
-  width:50px;
-  height:50px;
-  vertical-align: sub;
+  width:18px;
+  height:18px;
+  vertical-align: text-top;
 }
