@@ -84,9 +84,9 @@ button:hover{
 }
 
 .main{
-  height:680px;
+  height:670px;
   background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
-  background-size:150%;
+  background-size:cover;
   background-position:50% 0%;
   
 }

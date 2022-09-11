@@ -53,9 +53,9 @@
   }
   
   .main{
-    height:650px;
+    height:670px;
     background-position:50% 40px;
-    background-size:160%;
+    background-size:cover;
     
   }
   
@@ -196,7 +196,7 @@
   .main{
     background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp);
     background-position: 50% 50px;
-    background-size:100%;
+    background-size:cover;
     
   }
   
